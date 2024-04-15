@@ -25,4 +25,29 @@ background: linear-gradient(90deg, rgba(226,181,14,1) 38%, rgba(238,244,13,1) 10
     z-index: -1;
 
 }
+.navbar{
+    background-color: cadetblue;
+}
 
+.banner{
+    background-image: url("img/bannerempleados.jpg");
+    padding: 25%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+
+}
